@@ -1,0 +1,83 @@
+﻿<div class="sidebar-menu">
+
+    <div class="menu-item"
+         onclick="setSidebarActive(this, 'home'); showTab('home')">
+        Home
+    </div>
+
+    <div class="menu-item"
+         onclick="setSidebarActive(this, 'profile'); showTab('profile')">
+        Profile
+    </div>
+
+    <div class="menu-item"
+         onclick="setSidebarActive(this, 'home'); showTab('home')">
+        Messages
+    </div>
+
+    <div class="menu-item"
+         onclick="setSidebarActive(this, 'home'); showTab('home')">
+        Settings
+    </div>
+
+</div>
+
+<script>
+    function setSidebarActive(el) {
+        // remove active from all
+        document.querySelectorAll('.menu-item')
+            .forEach(x => x.classList.remove('active'));
+
+        // add active to clicked
+        el.classList.add('active');
+    }
+
+    function setSidebarActive(el, tab) {
+        document.querySelectorAll('.menu-item')
+            .forEach(x => x.classList.remove('active'));
+
+        el.classList.add('active');
+
+        // save BOTH
+        localStorage.setItem("activeMenu", el.innerText.trim());
+        localStorage.setItem("activeTab", tab);
+    }
+
+    // restore
+    window.addEventListener("DOMContentLoaded", () => {
+
+        let activeMenu = localStorage.getItem("activeMenu");
+        let activeTab = localStorage.getItem("activeTab") || "home";
+
+        // restore sidebar
+        document.querySelectorAll('.menu-item').forEach(el => {
+            if (el.innerText.trim() === activeMenu) {
+                el.classList.add('active');
+            }
+        });
+
+        // restore tab content
+        showTab(activeTab);
+    });
+</script>
+
+<style>
+    .menu-item {
+        padding: 12px 15px;
+        cursor: pointer;
+        color: #4a4a4a;
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+
+        .menu-item:hover {
+            background: #f1f3f5;
+        }
+
+        /* ACTIVE STYLE */
+        .menu-item.active {
+            background: #e9ecef;
+            font-weight: 600;
+            border-left: 3px solid #2f80ed;
+        }
+</style>

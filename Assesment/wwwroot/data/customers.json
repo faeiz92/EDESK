@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Thomas Hardy",
+    "address": "89 Chiaroscuro Rd.",
+    "city": "Portland",
+    "pinCode": "97219",
+    "country": "USA"
+  },
+  {
+    "id": 2,
+    "name": "Maria Anders",
+    "address": "Obere Str. 57",
+    "city": "New York",
+    "pinCode": "12209",
+    "country": "USA"
+  },
+  {
+    "id": 3,
+    "name": "Fran Wilson",
+    "address": "C/ Araujo, 67",
+    "city": "Buffalo",
+    "pinCode": "28023",
+    "country": "USA"
+  },
+  {
+    "id": 4,
+    "name": "Dominique Perrier",
+    "address": "25, rue Lauriston",
+    "city": "Albany",
+    "pinCode": "75016",
+    "country": "USA"
+  }
+]

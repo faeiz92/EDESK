@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\views\\shared\\_treeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:views\\shared\\_treeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\views\\shared\\_treenode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:views\\shared\\_treenode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\models\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:models\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|d:\\edesk_sdn_bhd_assesment\\assesment\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C85079F-01D3-4FF9-B89D-5E77D410E185}|Assesment.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_TreeNode.cshtml",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_TreeNode.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_TreeNode.cshtml",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_TreeNode.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_TreeNode.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T07:41:26.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TreeNode.cs",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Models\\TreeNode.cs",
+              "RelativeDocumentMoniker": "Models\\TreeNode.cs",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Models\\TreeNode.cs",
+              "RelativeToolTip": "Models\\TreeNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T07:38:20.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_TreeView.cshtml",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_TreeView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_TreeView.cshtml",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_TreeView.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_TreeView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T06:19:48.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T06:16:34.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-18T04:50:41.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T04:29:55.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T04:22:39.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:21:35.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.js",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\app.js",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "wwwroot\\js\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-18T06:22:15.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T06:25:27.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T05:39:09.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\EDESK_SDN_BHD_ASSESMENT\\Assesment\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T05:39:11.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

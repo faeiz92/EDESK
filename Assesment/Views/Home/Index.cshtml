@@ -1,0 +1,146 @@
+﻿@model List<TreeNode>
+
+<div id="homeTab">
+
+    <h4 class="page-title">Home Tab.</h4>
+
+    <div class="row g-3">
+
+        <!-- TREE -->
+        <div class="col-3">
+            @Html.Partial("_TreeView")
+        </div>
+
+        <!-- TABLE -->
+        <div class="col-9">
+
+            <div class="card-box">
+
+                <div class="card-header">
+                    Customer Details
+                </div>
+
+                <table class="table custom-table" id="customerTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Address</th>
+                            <th>City</th>
+                            <th>Pin Code</th>
+                            <th>Country</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <div class="pagination-box">
+                    Showing 5 out of 25 entries
+                    <div class="pagination">
+                        <span>‹</span>
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>›</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="profileTab" style="display:none;">
+
+    <h4>Profile</h4>
+
+    <div class="card-box" style="max-width:400px;">
+
+        <form onsubmit="submitLogin(event)">
+
+            <div class="mb-3">
+                <label>UserID</label>
+                <input type="text" id="userId" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Password</label>
+                <input type="password" id="password" class="form-control" required />
+            </div>
+
+            <button class="btn btn-primary w-100">Submit</button>
+
+        </form>
+
+    </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        function setTreeActive(el) {
+            document.querySelectorAll('.tree-item, .tree-sub')
+                .forEach(x => x.classList.remove('active-node'));
+
+            el.classList.add('active-node');
+
+            // save
+            localStorage.setItem("activeTree", el.dataset.node);
+        }
+
+        // restore on load
+        window.addEventListener("DOMContentLoaded", () => {
+
+            let activeTab = localStorage.getItem("activeTab");
+
+            // fallback to home
+            if (!activeTab) {
+                activeTab = "home";
+            }
+
+            showTab(activeTab);
+
+            // restore sidebar
+            let activeMenu = localStorage.getItem("activeMenu");
+
+            document.querySelectorAll('.menu-item').forEach(el => {
+                if (el.innerText.trim() === activeMenu) {
+                    el.classList.add('active');
+                }
+            });
+
+        });
+
+        function expandParents(el) {
+            let parent = el.parentElement;
+
+            while (parent) {
+                if (parent.classList.contains('tree-children')) {
+                    parent.classList.remove('d-none');
+
+                    let toggle = parent.previousElementSibling;
+                    if (toggle) {
+                        let icon = toggle.querySelector('.icon');
+                        if (icon) icon.textContent = "-";
+                    }
+                }
+
+                parent = parent.parentElement;
+            }
+        }
+
+    </script>
+}
+
+            <style>
+    .active-node {
+        background: #e7f1ff !important;
+        font-weight: 600;
+        border-left: 3px solid #2f80ed;
+    }
+            </style>

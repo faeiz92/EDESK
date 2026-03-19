@@ -1,0 +1,38 @@
+﻿@model List<TreeNode>
+
+<div class="tree-card">
+    <div class="tree-group">
+        @foreach (var node in Model)
+        {
+            @await Html.PartialAsync("_TreeNode", node)
+        }
+    </div>
+</div>
+
+<script>
+    function toggleNode(element) {
+        let icon = element.querySelector(".icon");
+        let children = element.nextElementSibling;
+
+        // ONLY toggle if next is tree-children (not tree-group)
+        if (!children || !children.classList.contains("tree-children")) {
+            return;
+        }
+
+        if (children.classList.contains("d-none")) {
+            children.classList.remove("d-none");
+            icon.textContent = "-";
+        } else {
+            children.classList.add("d-none");
+            icon.textContent = "+";
+        }
+    }
+</script>
+
+<style>
+    .tree-children {
+        margin-left: 20px;
+        border-left: 1px dashed #ddd;
+        padding-left: 10px;
+    }
+</style>

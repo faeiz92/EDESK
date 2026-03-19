@@ -1,0 +1,32 @@
+﻿@model TreeNode
+
+@if (Model.Children.Any())
+{
+    <!-- Parent -->
+    <div class="tree-item tree-toggle"
+         data-node="@Model.Name"
+         onclick="setTreeActive(this); toggleNode(this)">
+        <span class="icon">+</span> @Model.Name
+    </div>
+
+    <!-- Children -->
+    <div class="tree-children d-none">
+        @foreach (var child in Model.Children)
+        {
+            @await Html.PartialAsync("_TreeNode", child)
+        }
+    </div>
+}
+else
+{
+    <!-- Leaf -->
+    <div class="tree-sub"
+         data-node="@Model.Name"
+         onclick="setTreeActive(this); filterCity('@Model.City')">
+        @Model.Name
+    </div>
+}
+
+
+
+
